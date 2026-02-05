@@ -1,0 +1,11 @@
+dict1 = {}
+friend1 = input("enter first friend name")
+lang1 = input("enter your favourtie language")
+friend2 = input("enter second friend name")
+lang2 = input("enter your favoruite language")
+friend3 = input("enter third friend name")
+lang3 = input("enter your favoruite language")
+friend4 = input("enter fourth friend name")
+lang4 = input("enter your favoruite language")
+dict1.update({friend1 : lang1, friend2 : lang2, friend3 :lang3, friend4 : lang4})
+print(dict1)
